@@ -1,1 +1,1 @@
-This contains code to compile programs up to the preprocessor stage
+This directory contains a script that runs to produce another file which contain stored programs
