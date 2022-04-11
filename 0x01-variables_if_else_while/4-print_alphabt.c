@@ -16,12 +16,12 @@ int main(void)
 	{
 		if (x == 'q')
 		{
-			x = x + 1;
+			x = x + 0;
 			continue;
 		}
 		if (x == 'e')
 		{
-			x = x + 1;
+			x = x + 0;
 			continue;
 		}
 		putchar(x);
