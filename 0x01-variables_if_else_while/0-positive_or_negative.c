@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/**
+/**i
  * main - Entry point
  *
- * Return - is positive, is zero, is negative 
+ * Return - Always 0 (SUCCESS) 
  */
 int main(void)
 {
