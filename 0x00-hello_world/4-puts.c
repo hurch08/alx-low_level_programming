@@ -2,12 +2,12 @@
 #include <string.h>
 
 /**
- * main - Prints "\"Programming is like building a multilingual puzzle"
- * Return: 1 if the number is positive. 0 otherwise
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 
 	return (0);
 }
