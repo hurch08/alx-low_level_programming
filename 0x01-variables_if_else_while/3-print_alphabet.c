@@ -18,5 +18,9 @@ int main(void)
 	}
 	for (y = 'A'; y <= 'Z'; y++)
 	{
+		putchar(y);
 	}
+
+	putchar('\n');
+	return (0);
 }
