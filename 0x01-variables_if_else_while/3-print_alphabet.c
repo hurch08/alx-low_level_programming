@@ -7,15 +7,16 @@
   *
   * Return: Always 0 (Success)
   */
+
 int main(void)
 {
-	int x;
+	int x,y;
 
 	for (x = 'a'; x <= 'z'; x++)
 	{
 		putchar(x);
-		putchar('\n');
 	}
-
-	return (0);
+	for (y = 'A'; y <= 'Z'; y++)
+	{
+	}
 }
