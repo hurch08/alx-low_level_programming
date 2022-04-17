@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-
 /**
- * main = main block
+ * main - main block
  * Description: computers and prints the sum of al the multiples of 3 or
  * 5 below 1024 (excluded), followed by a new line
  * Return: 0
@@ -21,7 +20,7 @@ int main(void)
 
 		if (i < 49)
 		{
-			printf(",");
+			printf(", ");
 		}
 		i++;
 	}
