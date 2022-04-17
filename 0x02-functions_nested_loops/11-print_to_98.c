@@ -6,14 +6,14 @@
  * @n: number to start from 
  * Return: 0 or 1
  */
-void print_to _98(int n)
+void print_to_98(int n)
 {
 	while (n < 98)
 	{
 		printf("%i,", n);
 		n++;
 	}
-	whle (n > 98)
+	while (n > 98)
 	{
 		printf("%i,", n);
 		n--;
