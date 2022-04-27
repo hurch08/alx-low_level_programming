@@ -8,7 +8,6 @@
  *
  * Return: Nothing.
  */
-
 void simple_print_buffer(char *buffer, unsigned int size)
 {
 	unsigned int i;
@@ -23,7 +22,7 @@ void simple_print_buffer(char *buffer, unsigned int size)
 		if (!(i % 10) && i)
 		{
 			printf("\n");
-		}
+                }
 		printf("0x%02x", buffer[i]);
 		i++;
 	}
@@ -31,7 +30,7 @@ void simple_print_buffer(char *buffer, unsigned int size)
 }
 
 /**
- * main - check the code for AlX School students.
+ * main - check the code for ALX School students.
  *
  * Return: Always 0.
  */
@@ -41,7 +40,7 @@ int main(void)
 
 	simple_print_buffer(buffer, 98);
 	_memset(buffer, 0x01, 95);
-	printf("---------------------------------------------\n");
+	printf("-------------------------------------------------\n");
 	simple_print_buffer(buffer, 98);
 	return (0);
 }
